@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000000;
+	color: #fff;
+}
+
+.container {
+	max-width: 1440px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.navbar-c {
+	background-color: #171717;
+	padding: 15px;
+	/* max-height: 10vh; */
+}
+
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar-brand {
+	border: 2px solid #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.navbar-brand a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+.right-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.contact-btn {
+	background-color: transparent;
+	border: 2px solid #4f46e5;
+	border-radius: 5px;
+	padding: 10px 10px;
+	margin-right: 5px;
+	outline: none;
+	box-shadow: none;
+	cursor: pointer;
+}
+.contact-btn:hover {
+	background-color: #4f46e5;
+	text-decoration: underline;
+}
+.contact-btn a {
+	color: #fff;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.card {
+	background-color: #171717;
+}
+
+/* hero -section */
+
+.land {
+	width: 100%;
+	object-fit: cover;
+	height: 70vh;
+}
